@@ -1,5 +1,5 @@
 {
-    "name": "pj/hooks-helper",
+    "name": "philipjohn/hooks-helper",
     "description": "Register hooks in WordPress using just the method name.",
     "version": "1.0.0",
     "type": "library",

@@ -7,7 +7,7 @@ Never type `add_action` or `add_filter` in your WordPress projects ever again! I
 First, require this library with composer.
 
 ```php
-composer require pj/hooks-helper
+composer require philipjohn/hooks-helper
 ```
 
 Then use the `Register` trait in your classes.
