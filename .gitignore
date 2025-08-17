@@ -1,1 +1,5 @@
-vendor/
+/vendor/
+/.phpunit.cache
+/.vscode
+.DS_Store
+.phpunit.result.cache

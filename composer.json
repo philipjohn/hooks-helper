@@ -1,0 +1,32 @@
+{
+    "name": "pj/hooks-helper",
+    "description": "Register hooks in WordPress using just the method name.",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords": ["wordpress", "hooks", "actions", "filters", "classes"],
+    "homepage": "https://philipjohn.me.uk/hooks-helper",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Philip John",
+            "email": "hookshelper@philipjohn.me.uk",
+            "homepage": "https://philipjohn.me.uk",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PJ\\HooksHelper\\": "src/"
+        }
+    },
+    "archive": {
+        "exclude": [ "/*.php" ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6",
+        "yoast/phpunit-polyfills": "^4.0"
+    },
+    "scripts": {
+        "test": "wp-env run tests-cli wp-content/plugins/wp-hooks-helper/vendor/bin/phpunit -c wp-content/plugins/wp-hooks-helper/phpunit.xml.dist"
+    }
+}
